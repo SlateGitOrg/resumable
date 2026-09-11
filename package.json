@@ -1,0 +1,12 @@
+{
+  "name": "resumable",
+  "version": "0.1.0",
+  "description": "Server-sent events with a real Last-Event-ID contract and an explicit gap signal, so a reconnect never silently skips events.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.ts"
+  }
+}
