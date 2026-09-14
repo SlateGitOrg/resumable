@@ -2,6 +2,22 @@
 
 > Server-sent events with a real Last-Event-ID contract and an explicit gap signal, so a reconnect never silently skips events.
 
+## Live deployment
+
+[![CI and deployment](https://github.com/SlateGitOrg/resumable/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlateGitOrg/resumable/actions/workflows/ci.yml)
+
+[Open the interactive Resumable demo](https://slategitorg.github.io/resumable/)
+
+The deployed interface uses a deterministic offline scenario to make the repository's tested decision rule visible without external services or private data.
+
+### Desktop
+
+![Resumable desktop deployment](docs/assets/deployed-desktop.png)
+
+### Mobile
+
+<img src="docs/assets/deployed-mobile.png" alt="Resumable mobile deployment" width="390">
+
 `COMPACT` · **Full Stack Engineering** · Intermediate · ~5 days · Gaming - live tournament operations
 
 **Primary language:** TypeScript
