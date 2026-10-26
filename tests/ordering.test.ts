@@ -45,7 +45,7 @@ describe('1,000 disconnects with the resume point intact', () => {
     disconnects: 1_000, capacity: 512, maxBurst: 50, seed: 11,
   });
 
-  test('THE HEADLINE: zero events lost', () => {
+  test('zero events lost', () => {
     assert.equal(r.client.received.length, r.published,
       `published ${r.published}, client received ${r.client.received.length}`);
   });

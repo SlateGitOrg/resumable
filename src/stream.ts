@@ -1,7 +1,7 @@
 /**
  * Resumable event streaming with an honest failure mode.
  *
- * THE DIFFERENTIATOR LIVES HERE.
+ * The core of the project.
  *
  * The SSE spec gives you `Last-Event-ID` for free: on reconnect the browser
  * sends the last id it saw, and the server is supposed to resume from there.
